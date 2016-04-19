@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fullscreen_bg">#FFA359</color>
+
+    <color name="dialog_btn_ok">#FFA359</color>
+
+    <color name="dialog_btn_go">#FB5A5A</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="red">#FFFF1826</color>
+
+    <color name="indicator_point1">#3221272B</color>
+</resources>

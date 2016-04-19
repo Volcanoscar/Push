@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="FullScreenActivityTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/fullscreen_bg</item>
+        <item name="android:colorPrimaryDark">@color/fullscreen_bg</item>
+        <item name="android:statusBarColor">@color/fullscreen_bg</item>
+    </style>
+
+    <style name="DialogActivityTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:windowFrame">@android:color/transparent</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景透明-->
+        <!--<item name="android:backgroundDimAmount">0.3</item>-->
+        <!--<item name="android:windowAnimationStyle">@null</item>-->
+    </style>
+
+</resources>

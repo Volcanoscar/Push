@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/fullscreen_bg"
+            android:orientation="horizontal">
+        <TextView
+                android:id="@+id/tv_fs_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:clickable="false"
+                android:text="@string/content_text_test"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:orientation="vertical">
+
+        <ScrollView android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="9"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="26dp">
+            <TextView
+                    android:id="@+id/tv_fs_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_text_test"
+                    android:textSize="20sp"/>
+        </ScrollView>
+
+        <Button
+                android:id="@+id/btn_fs_go"
+                android:layout_width="fill_parent"
+                android:layout_height="67dp"
+                android:clickable="true"
+                android:background="@drawable/shape_fullscreen_btn_go"
+                android:text="@string/btn_go_default"
+                android:textColor="#FDFEFE"
+                android:textSize="24sp"/>
+    </LinearLayout>
+</LinearLayout>
